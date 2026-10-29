@@ -1,0 +1,72 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #101827;
+  color: white;
+}
+
+.game {
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  text-align: center;
+  background: #1e293b;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px #0005;
+}
+
+h1 {
+  color: #60a5fa;
+}
+
+h2 {
+  margin-top: 25px;
+}
+
+button {
+  padding: 13px 18px;
+  margin: 10px 4px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.scores p {
+  padding: 12px;
+  background: #334155;
+  border-radius: 8px;
+}
+
+#tossResult,
+#rollResult,
+#message {
+  line-height: 1.6;
+}
+
+.restart {
+  background: #475569;
+}
