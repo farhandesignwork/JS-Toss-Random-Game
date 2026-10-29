@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Random Game with Toss</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="game">
+    <h1>Random Game</h1>
+    <p>First, win the toss to decide who starts!</p>
+
+    <section id="tossSection">
+      <h2>🪙 Toss Time</h2>
+      <button id="tossBtn">Flip the Coin</button>
+      <p id="tossResult">Ready for the toss?</p>
+    </section>
+
+    <section id="gameSection" hidden>
+      <h2 id="turnText">Current Turn</h2>
+
+      <div class="scores">
+        <p>Player 1: <strong id="score1">0</strong></p>
+        <p>Player 2: <strong id="score2">0</strong></p>
+      </div>
+
+      <p id="rollResult">Click the button to get a random number.</p>
+      <button id="playBtn">Generate Random Number</button>
+      <p id="message"></p>
+      <button id="restartBtn" class="restart">Restart Game</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
